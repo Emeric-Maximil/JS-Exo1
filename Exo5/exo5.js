@@ -17,9 +17,9 @@ for(let i = 0; i < 3 ; i++){
 
 console.log(mots);
 
-if((mots[0].localeCompare(mots[1]) == -1) &&
-   (mots[0].localeCompare(mots[2]) == -1)&&
-   (mots[1].localeCompare(mots[2]) == -1)){
+if((mots[0].localeCompare(mots[1]) == -1 || mots[0].localeCompare(mots[1]) == 0) &&
+   (mots[0].localeCompare(mots[2]) == -1 || mots[0].localeCompare(mots[2]) == 0)&&
+   (mots[1].localeCompare(mots[2]) == -1 || mots[1].localeCompare(mots[2]) == 0)){
    console.log("is ok");
 }else {
    console.log("isn't ok");

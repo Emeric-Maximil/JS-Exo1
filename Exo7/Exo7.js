@@ -20,7 +20,7 @@ Afficher dans les prompts
 let tab = [];
 let pluspetit = 0;
 
-for (let i = 1; i < 6; i++) {
+for (let i = 1; i < 3; i++) {
    tab.push({
       'nom': prompt ("saisir le nom, son numéro est "+i),
       'prenom': prompt ("saisir le prenom, son numéro est "+i),

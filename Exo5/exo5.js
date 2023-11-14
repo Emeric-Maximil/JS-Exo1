@@ -3,11 +3,7 @@ demande 3 mots à l'utilisateur (prompt)
 et qui indique si ils sont dans l'ordre alphabétique 
 (afficher dans la console).*/ 
 
-let string1 = "hello";
-let string2 = "world";
 
-let compareValue = string1.localeCompare(string2);
-console.log(compareValue);
 
 
 let mots = [];

@@ -26,5 +26,5 @@ for (let i = 0; i<10; i++){
 }
 
 console.log("nb Valeurs negatives : "+nbchiffresNeg);
-console.log("nb Valeurs positives : "+ (tab.length - nbchiffresNeg));
+console.log("nb Valeurs positives : "+tab.length - nbchiffresNeg);
 console.log("la plus grande valeur absolue est : " + max);

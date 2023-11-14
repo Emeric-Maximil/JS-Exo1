@@ -19,7 +19,7 @@ Afficher dans les prompts
 
 let tab = [];
 let pluspetit = 0;
-
+//ajouter des gens dans le tableau et savoir qui est le plus jeune
 for (let i = 1; i < 3; i++) {
    tab.push({
       'nom': prompt ("saisir le nom, son numéro est "+i),
@@ -32,6 +32,7 @@ for (let i = 1; i < 3; i++) {
    }
 }
 
+//afficher le plus jeune
 for (const iterator in tab[pluspetit]) {
    //afficher le nom de la colonne
    console.log(iterator);

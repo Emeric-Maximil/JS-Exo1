@@ -18,9 +18,13 @@ switch(tab){
       console.log("numéro 3");
       break;
    case '4':
+      //dans le cas 4 on ne réalise que le cas 4 
       console.log("numéro 4");
-      break;
+      // break;
    default:
+      //Ce cas n'est réalisé que lors qu'aucun des 
+      //cas du dessus n'est réalisé
       console.log("?");
       break;
 }
+

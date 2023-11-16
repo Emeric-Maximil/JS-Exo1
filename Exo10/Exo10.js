@@ -1,27 +1,20 @@
 /**
- * Une boulangerie vend des chocolatines. 
- * Pour calculer le prix qu'elle va facturer a ses clients
- *  elle a besoin d'un programme. 
- * 
- * -Une chocolatine coûte 1€40 a l'unité jusqu'à 10. 
- * -Les 10 suivantes coûtent 1€30 pièce et 
- * -Au-delà elles coûtent 1€20 pièce.
- * 
- * Écrire un programme qui calcule le prix à payer  
- * en fonction de la quantité (depuis un prompt) 
- * Afficher dans la console le montant à payer.
+ * Exercice 10 Boucles :
+Pour son nouveau spectacle, 
+un mentaliste a besoin d'un programme pour s'exercer 
+à deviner un nombre entre 1 et 100.
+Pour réussir son tour il doit deviner le nombre en moins de 10 tentatives.
+A chaque tour il va demander si le nombre qu’il énonce 
+est plus petit ou plus grand que le nombre choisi.
+
+
+-Si il réussit à découvrir le nombre en moins de 10 essais 
+            -> afficher : son entrainement acharné a payé, 
+-Sinon 
+           -> afficher : il est un mauvais mentaliste 
+           et il va devoir changer de métier.
+
+   -> afficher : le nombre d'essai qu'il a effectué pour trouver le nombre.
+   
  */
 
-
-let nb = prompt("Combien de chocolatines ?");
-let res = 0;
-let prix = 1.4;
-
-for(let i = 0; i< nb; i++){
-   if(i == 10 || i == 20){
-      prix -= 0.1;
-   }
-   res += prix;
-}
-
-console.log("le prix est "+ res.toFixed(2) + "€");

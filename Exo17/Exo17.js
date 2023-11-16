@@ -72,7 +72,7 @@ let tab = {
     Marco: new CompteBancaire(1000, "Marco"),
 };
 
-tab[Alex].getSolde();
+tab["Alex"].getSolde();
 console.log("");
 tab["Alex"].retrait(100);
 console.log("");

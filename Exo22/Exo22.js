@@ -14,12 +14,16 @@ function calculer() {
         total = p1 * p2 * 1.2;
 
         console.log(total);
-        document.getElementById("resultat").textContent = "Le prix TTC est de "+document.querySelectorAll('p')[1].textContent+" est de "+total;
+        document.getElementById("resultat").textContent = "Le prix TTC de "+document.querySelectorAll('p')[1].textContent+" est de "+total+"€";
     }else {
         console.log(compteur);
         document.body.appendChild(document.createElement('p'));
         document.querySelectorAll('p')[compteur].textContent = valeur;
         compteur++;
+        if(compteur == 4){
+            console.log(document.querySelector("button").textContent);
+            document.querySelector("button").textContent = "Calculer";
+        }
     }
 
     

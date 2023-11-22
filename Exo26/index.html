@@ -6,12 +6,13 @@
     <script src="./Exo26.js" async></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="showAllTask()">
     <h1>Liste des tâches</h1>
     <input type="text" id = "task">
     <button id = "add" onclick="addTask()">Ajouter</button>   
     <button id = "delAllTask" onclick="delAllTask()">Tout Supprimer</button>   
     <button id = "reload" onclick="reload()">Recharger la page</button>
+    <button id = "vider" onclick="viderLocalStorage()">Vider le LocalStorage</button>
     
     <div id="tasks">
 
